@@ -11,24 +11,22 @@
 <body>
   <div class="container">
     <div>
-      <div>
-        <label for="red">(R) Vermelho: </label>
-        <input type="range" name="red" id="red" min="0" max="255">
-        <input type="text" readonly id="inputRed" class="disable">
-        <br>
-        <label for="green">(G) Verde: </label>
-        <input type="range" name="green" id="green" min="0" max="255">
-        <input type="text" readonly id="inputGreen" class="disable">
-        <br>
-        <label for="blue">(B) Azul: </label>
-        <input type="range" name="blue" id="blue" min="0" max="255">
-        <input type="text" readonly id="inputBlue" class="disable">
-      </div>
+      <label for="red">(R) Vermelho: </label>
+      <input type="range" name="red" id="red" min="0" max="255">
+      <input type="text" readonly disable id="inputRed" class="disable">
+      <br>
+      <label for="green">(G) Verde: </label>
+      <input type="range" name="green" id="green" min="0" max="255">
+      <input type="text" readonly disable id="inputGreen" class="disable">
+      <br>
+      <label for="blue">(B) Azul: </label>
+      <input type="range" name="blue" id="blue" min="0" max="255">
+      <input type="text" readonly disable id="inputBlue" class="disable">
     </div>
     <br>	
     <div id="resultBck"></div>
   </div>
-  <script src="./js/script.js"></script>
+  <script defer src="./js/script.js"></script>
 </body>
 
 </html>
